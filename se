@@ -421,7 +421,7 @@ xkb_symbols "custom" {
 	key <AB07> { [ m,          M,          grave,               1    ] };
 	key <AB08> { [ w,          W,          asterisk,            2    ] };
 	key <AB09> { [ v,          V,          comma,               3    ] };
-	key <AB10> { [ z,          Z,          diaeresis,           none ] };
+	key <AB10> { [ z,          Z,          underscore,          none ] };
     Key <LSGT> { [ Control_L,  Control_L,  Control_L,           Control_L ] };
 
 };
