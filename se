@@ -373,6 +373,8 @@ xkb_symbols "custom" {
 	key <ESC>  { [ Caps_Lock ] };
 	key <CAPS> { [ Escape ] };
 
+    key <SPCE>{ [ space,       space,      space,               space] };
+
 	key <RTSH> { [ ISO_Level3_Shift	] };
 	key <RCTL> { [ Shift_R		] };
 	key <AE01> { [ 1,          none,       none,                none ] };
