@@ -368,15 +368,15 @@ xkb_symbols "custom" {
 
 	key <LWIN> { [ Super_L                                           ] };
 	key <RWIN> { [ Super_R                                           ] };
-	key <LFSH> { [ ISO_Level3_Shift	] };
-	key <LCTL> { [ Shift_L		] };
+	key <LFSH> { [ ISO_Level3_Shift ] };
+	key <LCTL> { [ Shift_L ] };
 	key <ESC>  { [ Caps_Lock ] };
 	key <CAPS> { [ Escape ] };
 
-    key <SPCE>{ [ space,       space,      space,               space] };
+	key <SPCE>{ [ space,       space,      space,               space] };
 
-	key <RTSH> { [ ISO_Level3_Shift	] };
-	key <RCTL> { [ Shift_R		] };
+	key <RTSH> { [ ISO_Level3_Shift ] };
+	key <RCTL> { [ Shift_R ] };
 	key <AE01> { [ 1,          none,       none,                none ] };
 	key <AE02> { [ 2,          none,       none,                none ] };
 	key <AE03> { [ 3,          none,       none,                none ] };
@@ -388,7 +388,7 @@ xkb_symbols "custom" {
 	key <AE09> { [ 9,          none,       none,                none ] };
 	key <AE10> { [ 0,          none,       none,                none ] };
 	key <AE11> { [ plus,       none,       none,                none ] };
-	key <AE12> { [ acute,      grave,      plusminus,           notsign ]	};
+	key <AE12> { [ acute,      grave,      plusminus,           notsign ] };
 	key <AD01> { [ aring,      Aring,      braceleft,           none ] };
 	key <AD02> { [ adiaeresis, Adiaeresis, braceright,          none ] };
 	key <AD03> { [ odiaeresis, Odiaeresis, bracketleft,         none ] };
