@@ -1,8 +1,21 @@
 # My keymaps
 These are my keymaps.
-The one of interest is the 'custom' map in se.
 
-```
-/usr/share/X11/xkb/symbols/
-```
-Is the path where the keymaps shold be placed.
+## X11
+Keylayouts of interest:
+
+* custom
+* planck
+
+### Path of interest
+	/usr/share/X11/xkb/symbols/
+### Application
+	setxkbmap se (custom|planck)
+### Other
+	compose:(ralt|caps)
+
+## Linux-tty
+### Path of interest
+	/usr/share/kbd/keymaps/i386/dvorak
+### Application 
+	localectl setkeymap --no-convert
