@@ -1,8 +1,8 @@
 partial alphanumeric_keys
-xkb_symbols "planck" {
+xkb_symbols "dvorak_a6" {
 	include "se(basic)"
 
-	name[Group1]="Swedish (planck)";
+	name[Group1]="Swedish (Dvorak A6)";
 
 	key <LWIN> { [ Super_L                                           ] };
 	key <RWIN> { [ Super_R                                           ] };
