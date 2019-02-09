@@ -1,0 +1,67 @@
+partial alphanumeric_keys
+xkb_symbols "dvorak_a6" {
+	include "se(basic)"
+
+	name[Group1]="Swedish (Dvorak A6)";
+
+	key <LWIN> { [ Super_L                                           ] };
+	key <RWIN> { [ Super_R                                           ] };
+	//key <LFSH> { [ ISO_Level3_Shift	] };
+	//key <LCTL> { [ Shift_L		] };
+	//key <ESC>  { [ Caps_Lock ] };
+	//key <CAPS> { [ Escape ] };
+
+    key <SPCE>{ [ space,       space,      space,               space] };
+
+	//key <RTSH> { [ ISO_Level3_Shift	] };
+	//key <RCTL> { [ Shift_R		] };
+	key <AE01> { [ 1,          none,       none,                none ] };
+	key <AE02> { [ 2,          none,       none,                none ] };
+	key <AE03> { [ 3,          none,       none,                none ] };
+	key <AE04> { [ 4,          none,       none,                none ] };
+	key <AE05> { [ 5,          none,       none,                none ] };
+	key <AE06> { [ 6,          none,       none,                none ] };
+	key <AE07> { [ 7,          none,       none,                none ] };
+	key <AE08> { [ 8,          none,       none,                none ] };
+	key <AE09> { [ 9,          none,       none,                none ] };
+	key <AE10> { [ 0,          none,       none,                none ] };
+	key <AE11> { [ plus,       none,       none,                none ] };
+	key <AE12> { [ acute,      grave,      plusminus,           notsign ]	};
+	key <AD01> { [ aring,      Aring,      braceleft,           none ] };
+	key <AD02> { [ adiaeresis, Adiaeresis, braceright,          none ] };
+	key <AD03> { [ odiaeresis, Odiaeresis, bracketleft,         none ] };
+	key <AD04> { [ p,          P,          bracketright,        none ] };
+	key <AD05> { [ y,          Y,          dollar,              none ] };
+	key <AD06> { [ f,          F,          quotedbl,            none ] };
+	key <AD07> { [ g,          G,          question,            7    ] };
+	key <AD08> { [ c,          C,          ampersand,           8    ] };
+	key <AD09> { [ r,          R,          less,                9    ] };
+	key <AD10> { [ l,          L,          greater,             plus ] };
+	key <AD11> { [ comma,      none,       cedilla,             none ] };
+	key <AD12> { [ diaeresis,  asciicircum,none,                none ] };
+	key <AE12> { [ acute,      grave,      plusminus,           none ] };
+	key <AC01> { [ a,          A,          semicolon,           none ] };
+	key <AC02> { [ o,          O,          slash,               none ] };
+	key <AC03> { [ e,          E,          parenleft,           none ] };
+	key <AC04> { [ u,          U,          parenright,          none ] };
+	key <AC05> { [ i,          I,          bar,                 none ] };
+	key <AC06> { [ d,          D,          numbersign,          period] };
+	key <AC07> { [ h,          H,          asciicircum,         4    ] };
+	key <AC08> { [ t,          T,          numbersign,          5    ] };
+	key <AC09> { [ n,          N,          apostrophe,          6    ] };
+	key <AC10> { [ s,          S,          asciitilde,          none ] };
+	key <AC11> { [ minus,      underscore, grave,               none ] };
+	key <BKSL> { [ apostrophe, asterisk,   asterisk,            none ] };
+	key <AB01> { [ period,     colon,      colon,               none ] };
+	key <AB02> { [ q,          Q,          equal,               none ] };
+	key <AB03> { [ j,          J,          at,                  none ] };
+	key <AB04> { [ k,          K,          exclam,              none ] };
+	key <AB05> { [ x,          X,          backslash,           none ] };
+	key <AB06> { [ b,          B,          percent,             0    ] };
+	key <AB07> { [ m,          M,          grave,               1    ] };
+	key <AB08> { [ w,          W,          asterisk,            2    ] };
+	key <AB09> { [ v,          V,          comma,               3    ] };
+	key <AB10> { [ z,          Z,          underscore,          none ] };
+    //Key <LSGT> { [ Control_L,  Control_L,  Control_L,           Control_L ] };
+
+};
