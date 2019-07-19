@@ -1,6 +1,8 @@
 # My keymaps
 These are my keymaps.
 
+Also see https://github.com/HugoNikanor/qmk_firmware
+
 ## X11
 Keylayouts of interest:
 
