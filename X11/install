@@ -1,5 +1,0 @@
-#!/bin/bash
-
-set -x
-
-sudo patch /usr/share/X11/xkb/symbols/se planck.diff
